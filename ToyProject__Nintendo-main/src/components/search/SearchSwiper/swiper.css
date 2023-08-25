@@ -1,9 +1,0 @@
-.swiper-pagination {
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
-}
-
-#searchSwiper .swiper-pagination-bullet-active {
-  background-color: grey;
-}
