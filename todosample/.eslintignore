@@ -1,0 +1,11 @@
+.idea
+.vscode
+.DS_Store
+node_modules/
+dist/
+.prettierrc.js
+.prettierrc
+.eslintrc.js
+.eslintrc
+env.d.ts
+index.html

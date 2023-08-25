@@ -1,0 +1,171 @@
+@import '@/_variables.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+  height: 100vh;
+
+  .subTitle {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .form-signup {
+    width: 760px;
+    height: 690px;
+    border-radius: 4px;
+    border: 10px solid white;
+    padding: 44px;
+    text-align: center;
+
+    .signup-info {
+      margin-bottom: 30px;
+    }
+  }
+
+  form {
+    .msg {
+      margin-top: 5px;
+      margin-left: 30px;
+      text-align: start;
+      font-weight: bold;
+      color: $text-sub-grey;
+    }
+    .error {
+      margin-top: 5px;
+      margin-left: 30px;
+      text-align: start;
+      font-weight: bold;
+      color: $point-red;
+    }
+
+    .signup-input-group {
+      display: flex;
+      flex-wrap: nowrap;
+      margin-bottom: 40px;
+      width: 740px;
+      height: 40px;
+
+      .duplicate-check {
+        height: 40px;
+        border-radius: 5px;
+        width: 50px;
+        background-color: $bg-primary-grey;
+        border: 0px;
+        cursor: pointer;
+      }
+    }
+  }
+  .input-text {
+    width: 140px;
+    padding-top: 12px;
+  }
+
+  .input-form {
+    width: 480px;
+
+    .input-info {
+      width: 420px;
+      height: 40px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+  }
+
+  .image-form {
+    display: flex;
+    flex-wrap: wrap;
+
+    .image-input {
+      width: 200px;
+      height: 150px;
+    }
+
+    .image-info {
+      margin-bottom: 30px;
+      width: 300px;
+      line-height: 25px;
+      color: $text-sub-grey;
+      text-align: left;
+      margin-top: 25px;
+    }
+
+    .image-upload {
+      background-color: #efeff0;
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+      border: 2px solid $bg-primary-grey;
+      margin: 4px 0;
+    }
+    .preview-image {
+      display: block;
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+    }
+
+    .image-title {
+      margin-left: -40px;
+    }
+  }
+  .form-submit {
+    margin-top: 70px;
+    flex-wrap: wrap;
+    display: flex;
+
+    .continue-group {
+      margin: 0 auto;
+    }
+
+    .continue-button {
+      width: 160px;
+      height: 40px;
+      border-radius: 20px;
+      border: 1px solid $bg-primary-grey;
+      background-color: $bg-primary-grey;
+      color: white;
+    }
+
+    .continue-button-checked {
+      width: 160px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: $point-red;
+      border: 1px solid $point-red;
+      color: white;
+      cursor: pointer;
+    }
+
+    .info {
+      flex-wrap: nowrap;
+      width: 760px;
+      margin-bottom: 30px;
+    }
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .checkBox-input {
+        position: relative;
+        width: 16px;
+        height: 16px;
+        background-color: $bg-primary-white;
+        border: 1px solid gray;
+        border-radius: 2px;
+        margin-right: 2px;
+        cursor: pointer;
+      }
+
+      .checkBox-input::before {
+      }
+
+      .checkBox-input::after {
+      }
+    }
+  }
+}
